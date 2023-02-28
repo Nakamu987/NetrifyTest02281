@@ -18,5 +18,11 @@ module.exports = {
   // }
   chainWebpack: config => {
     config.module.rules.delete('eslint');
+  },
+
+  pwa: {
+      workboxOptions: {
+        exclude: [/_redirects/]
+      }
   }
 }
