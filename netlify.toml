@@ -1,2 +1,7 @@
 [build]
   publish = "agora_webrtc_troubleshooting/"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
